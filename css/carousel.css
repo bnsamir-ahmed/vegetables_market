@@ -1,0 +1,267 @@
+
+ 
+.carousel-sec{
+    overflow: hidden;
+    max-width: 550px;
+    position: relative;
+}
+
+.carousel-sec .carousel__items,
+.carousel__items--hidden{
+    display: none;
+}
+.carousel-sec .carousel__items img{
+    padding: 10px;
+height: auto;
+}
+.carousel-sec .carousel__items--visibale{
+text-align: center;
+    display: block;
+    background-color: #9e9e9e1a;
+    animation:  fadeoutCarosul .5s;
+}
+
+@keyframes fadeoutCarosul{
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        
+       transform:opacity linear;
+    }
+}
+.slider .PARENT{
+    display: none;
+}
+
+.carousel-sec .carousel__actions{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+width: 100%;    
+}
+.carousel__actions i{
+    cursor: pointer;
+    /* border-radius: 50%; */
+
+}
+.carousel-sec .carousel__actions i#carousel__btn--next {
+    margin-right: 20px;
+}
+.carousel-sec .carousel__actions i#carousel__btn--prev {
+    margin-left: 20px;
+}
+
+
+  .text-carosul  {
+
+        padding: 30px 0;
+    
+  }
+
+  .text-carosul p {
+        font-weight: 600;
+            font-size: 35px;
+  }
+
+  .text-carosul h6{
+    font-size: 24px;
+    color: var(--greenCOLOR);
+  }
+
+
+
+.PARENT__actions {
+    position: relative;
+    display: none;
+}
+  /* //////parent/////////// */
+.topPatent{
+    display: flex;
+    overflow-x: hidden;
+}
+.topPatent img{
+    transition: 0.5s ease;
+}
+.parent .card:hover img{
+    transform: scale(1.1);
+}
+.topPatent .parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex: none;
+    grid:20px
+}
+.parent .card{
+    overflow: hidden;
+    margin: 0 17px;
+    text-align: center;
+    width: 25rem;
+}
+.slider{
+    position: relative;
+}
+#backBtn{
+        position: absolute;
+            left: 17px;
+            bottom: 290px;
+            font-size: 24px;
+            color: #9e9e9e;
+            cursor: pointer;
+        }
+
+        #nextBtn{
+                position: absolute;
+                    right: 17px;
+                    bottom: 290px;
+                font-size: 24px;
+                cursor: pointer;
+                color: #9e9e9e;
+            }
+
+            .august{
+                font-size: 24px;
+                color: #9e9e9e;
+            }
+         .slider .topPatent   .card-text{
+                /* color: aqua; */
+                font-size: 27px;
+                font-weight: 600;
+            }
+
+.commom-li{
+    font-size: 22px;
+}
+@media screen and (max-width:599px) {
+    .text-carosul{
+        padding: 0;
+    }
+
+    .text-carosul p{
+            font-size: 20px;
+                font-weight: 500;
+            }
+.common,
+.new-product{
+    text-align: center;
+}
+            .text-carosul h6{
+                font-size: 20px;
+            }
+            .commom-li{
+                position: relative;
+                font-size: 14px;
+            }
+            i.what{
+                    padding: 0;
+                        position: absolute;
+                        left: -15px;
+                        top: 15px;
+
+
+                    }
+.slider .topPatent{
+    display: none;
+}
+.slider .PARENT {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    /* max-width: 300px; */
+    position: relative;
+}
+.slider .PARENT_carousl {
+    /* display: none; */
+}
+.PARENT_carousl--hidden {
+    display: block;
+}
+
+.slider .PARENT_carousl img {
+    padding: 10px;
+    height: auto;
+}
+
+.slider .PARENT_carousl--visib {
+    /* text-align: center; */
+    
+    display: block;
+    /* background-color: #9e9e9e1a; */
+    animation: fadeoutCarosul .5s;
+    /* margin-left: 15px; */
+    width: 80%;
+    margin: auto;
+}
+@keyframes fadeoutCarosul {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+
+        transform: opacity linear;
+    }
+}
+#backBtn,
+#nextBtn{
+    display: none;
+
+}
+.PARENT__actions{
+    position: relative;
+    display: none;
+}
+                  #PARENT__btn--prev{
+                    position: absolute;
+                    top:90%;
+                    left: 10%;
+                  }
+                       #PARENT__btn--next {
+position: absolute;
+    top: 90%;
+    right: 10%;
+
+                                  }
+                  
+                }
+
+
+@media screen and (min-width:600px) and (max-width:1023px) {
+ 
+    .text-carosul{
+        padding: 0;
+    }
+           .carousel-sec {
+               width: 80%;
+               margin: auto;
+           }
+                   .parent .card {
+                       width: 17rem;
+                       height: 24rem;
+                   }
+        
+                   #backBtn,
+                   #nextBtn {
+        
+                       bottom: 5px;
+                       color: wheat;
+                       background-color: red;
+                       border-radius: 25px;
+                       font-size: 16px;
+                       padding: 5px 10px;
+                   }
+        
+                   #nextBtn {
+                       right: 80px;
+                   }
+        
+                   #backBtn {
+                       left: 80px;
+        
+                   }
+           
+}

@@ -1,0 +1,49 @@
+/* //start-services */
+.service {
+    background-image: url(..//imge/parallax-3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    position: relative;
+    /* z-index: -1; */
+
+}
+
+.service .lay {
+    position: absolute;
+    content: '';
+    background-color: #0000001a;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.service-card {
+    padding: 60px 0;
+    display: none;
+
+
+}
+
+/* ///end-services */
+
+
+@media screen and (max-width:599px) and (max-width:1023px){
+    .service{
+        height: auto;
+    }
+    .fades{
+        padding: 0 0 15px 0;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1023px) {
+    .service {
+            height: auto;
+        }
+    
+        .fades {
+            padding: 0 0 15px 0;
+        }
+    }

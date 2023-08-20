@@ -1,0 +1,36 @@
+.items-carosul {
+
+    background-color: #a9a9a936;
+    text-align: center;
+}
+
+.items-carosul img {
+    padding: 0 22%;
+}
+
+.items-carosul .sparking {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.items-carosul .dollar {
+    font-weight: 200;
+}
+
+
+i.what {
+    padding: 10px;
+    background-color: #a9a9a936;
+    border-radius: 50%;
+    color: var(--greenCOLOR);
+}
+.p-faq{
+    display: none;
+    font-size: 16px;
+
+
+}
+
+/* i.what:hover .p-faq{
+display: block;
+} */

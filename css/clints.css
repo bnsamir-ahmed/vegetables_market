@@ -1,0 +1,64 @@
+/* start-client */
+.client {
+    background-image: url(..//imge/bg-image-5.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.clients {
+    background-color: var(--white-color);
+    padding: 80px 0px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.clients i {
+    font-size: 70px;
+    color: var(--colorProduct);
+}
+
+.clients .info-client {
+    display: flex;
+    justify-content: center;
+}
+
+.clients img {
+    border-radius: 50%;
+}
+
+.client .clients .desc-client{
+    font-size: 20px;
+}
+/* ///end-client */
+@media screen and (max-width:599px) {
+.clients{
+    padding: 50px 0;
+    width: auto;
+    border-radius: 35px;
+}
+
+.client .clients .desc-client {
+    font-size: 18px;
+    padding: 0 5px;
+}
+}
+@media (min-width:600px) and (max-width:767px) {
+    .clients{
+        padding: 50px 0;
+        width: auto;
+        border-radius: 30px;
+
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px) {
+    .clients{
+        padding: 0;
+    }
+}
+@media (min-width:1024px) and (max-width:1200px) {
+    .clients{
+        padding: 30px 0;
+    }
+}

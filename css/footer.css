@@ -1,0 +1,66 @@
+.footer .week .weekdays{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px 0 0;
+    color: black;
+}
+
+.footer .week .pm{
+    font-size: 18px;
+    color: #9e9e9e;
+}
+.footer .Social{
+    /* display: flex; */
+}
+.footer .footer-center i{
+    color: var(--greenCOLOR);
+    font-size: 20px;
+}
+.footer .footer-third .subscribe{
+        font-size: 21px;
+            color: #9e9e9e;
+}
+.footer .input-click{
+    position: relative;
+}
+.footer .input-click i{
+    position: absolute;
+    right: 0;
+        top: -5px;
+        font-size: 20px;
+        color:var(--white-color);
+        background-color: var(--red);
+        padding: 15px 20px;
+        border-radius: 50%;
+}
+.footer .footer-third input{
+    width: 100%;
+        border: none;
+        font-size: 24px;
+        border-bottom: 1px solid #9e9e9e9e;
+        margin-top: 10px;
+        outline: none;
+        
+}
+/* /////////////////////////////// */
+.payment{
+    background-color: #9e9e9e1c;
+    padding: 50px;
+}
+.payment .pay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.reserved{
+    font-size: 18px;
+        color: #9e99e9;
+    
+}
+@media screen and (max-width:599px) {
+    .payment .pay{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/landing.css" />
+    <link rel="stylesheet" href="./css/service.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/clints.css" />
+    <link rel="stylesheet" href="./css/faq.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animaition.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- start-nav-bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-expand-md bg-body-tertiary fixed-top"
+    >
+      <div class="container py-2">
+        <span class="navbar-toggler-icon nav-mob"></span>
+
+        <ul class="ul-mob">
+          <li><a href="">home</a></li>
+          <li class="inf">
+            <a href="">page</a><i class="fa-solid fa-chevron-down up"> </i>
+            <ul class="">
+              <li class="text-uppercase pt-2 px-2">about us</li>
+              <li class="text-uppercase pt-2 px-2">what we offer</li>
+              <li class="text-uppercase pt-2 px-2">our team</li>
+              <li class="text-uppercase pt-2 px-2">testimonials</li>
+              <li class="text-uppercase pt-2 px-2">princig list</li>
+            </ul>
+          </li>
+          <li class="inf-blog">
+            <a href="">blog</a>
+            <i class="fa-solid fa-chevron-down down">
+              <ul class="blog">
+                <li class="text-uppercase">grid blog</li>
+                <li class="text-uppercase">blog list</li>
+                <li class="text-uppercase">blog page</li>
+              </ul>
+            </i>
+          </li>
+          <li><a href="">gallery</a></li>
+          <li><a href="">shop</a></li>
+          <li><a href="">elements</a></li>
+        </ul>
+        <a class="navbar-brand" href="#"
+          ><img src="./imge/logo-default-249x52.png" alt=""
+        /></a>
+
+        <div class="navbar" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item head">
+              <a
+                class="nav-link text-uppercase head-link"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-3 page-text">
+              <a class="nav-link text-uppercase link-head" href="#">page</a>
+              <ul class="position-absolute page list-unstyled">
+                <li class="text-uppercase pt-2 px-2">about us</li>
+                <li class="text-uppercase pt-2 px-2">what we offer</li>
+                <li class="text-uppercase pt-2 px-2">our team</li>
+                <li class="text-uppercase pt-2 px-2">testimonials</li>
+                <li class="text-uppercase pt-2 px-2">princig list</li>
+              </ul>
+            </li>
+            <li class="nav-item px-3 page-blog">
+              <a class="nav-link text-uppercase link-head" href="#">blog</a>
+              <ul class="position-absolute page-grid list-unstyled">
+                <li class="text-uppercase pt-4 px-2">grid blog</li>
+                <li class="text-uppercase pt-4 px-2">blog list</li>
+                <li class="text-uppercase pt-4 px-2">blog page</li>
+              </ul>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-uppercase link-head" href="#">gallery</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-uppercase link-head" href="#">
+                elements
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 text-uppercase link-head">shop</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon-nav">
+          <i class="fa-solid fa-magnifying-glass search px-2"></i>
+          <i class="fa-solid fa-cart-shopping px-2"></i>
+          <i class="fa-solid fa-bars px-2"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="home-search">
+      <i class="fa-solid fa-magnifying-glass search-btn"></i>
+      <i class="fa-solid fa-xmark close-btn"></i>
+      <div class="input-group">
+        <input
+          type="search"
+          class="input-search"
+          aria-label="Dollar amount (with dot and two decimal places)"
+        />
+      </div>
+    </div>
+    <!-- end-nav-bar -->
+
+    <!-- start-landing -->
+    <section class="view-img" onclick="stop()">
+      <li id="prev" class="prev text-decoration-underline">prev</li>
+      <div class="container pt-4">
+        <div class="py-5 z-3 text-veiw">
+          <p class="text-capitalize text-light fst-italic welcome">
+            welcome to our online store
+          </p>
+          <h2 class="text-uppercase text-light store">grocery store</h2>
+          <h4 class="text-capitalize text-light for">for true gourmets</h4>
+          <button
+            class="text-uppercase text-light btn btn-danger my-4 shop-now"
+          >
+            shop now
+          </button>
+        </div>
+        <i class="fa-solid fa-arrow-up btn-up"></i>
+      </div>
+      <li id="next" class="next text-decoration-underline">next</li>
+    </section>
+    <!-- end-landing -->
+
+    <!-- start-landing-two -->
+    <section class="aboUt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-5">
+            <img src="./imge/about-576x537.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-6 col-md-7">
+            <div class="px-5 py-5">
+              <h3 class="fs-3 text-capitalize fst-italic text-about">
+                a few words about our store
+              </h3>
+              <h2 class="text-uppercase fw-bolder about-us py-2">about us</h2>
+              <p class="py-4 lh-lg">
+                Grocmart is a family-owned grocery store that has been offering
+                quality products for your everyday life since 1999, while also
+                providing superior service and competitive prices.
+              </p>
+              <div class="SAM">
+                <a class="text-light" href=""
+                  ><i class="fa-solid fa-right-long btn-about"></i
+                ></a>
+
+                <div class="">
+                  <div class="pe-4">
+                    <p>SAM WILLIAMS</p>
+                    <p class="fst-italic text-founder">CEO, Founder</p>
+                  </div>
+                </div>
+                <div class="">
+                  <img src="./imge/signature-1-160x55.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-landing-two -->
+
+    <!-- start serves -->
+    <section class="service">
+      <div class="lay"></div>
+      <div class="container">
+        <div class="service-card z-2">
+          <div class="row">
+            <div class="col-lg-3 col-sm-4 col-md-6 fades">
+              <div class="mx-4">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-fish fs-1"></i>
+                  </h5>
+                  <h6
+                    class="card-subtitle mb-2 text-body-secondary fs-2 fw-bold text-light"
+                  >
+                    Card subtitle
+                  </h6>
+                  <p class="card-text text-light">
+                    We work with the best suppliers to offer our customers the
+                    fresh grocery products of the highest quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-md-6 fades">
+              <div class="mx-4">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-money-check-alt fs-1"></i>
+                  </h5>
+                  <h6
+                    class="card-subtitle mb-2 text-body-secondary fs-2 fw-bold text-light"
+                  >
+                    Card subtitle
+                  </h6>
+                  <p class="card-text text-light">
+                    We work with the best suppliers to offer our customers the
+                    fresh grocery products of the highest quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-md-6 fades">
+              <div class="mx-4">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-caravan fs-1"></i>
+                  </h5>
+                  <h6
+                    class="card-subtitle mb-2 text-body-secondary fs-2 fw-bold text-light"
+                  >
+                    Card subtitle
+                  </h6>
+                  <p class="card-text text-light">
+                    We work with the best suppliers to offer our customers the
+                    fresh grocery products of the highest quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-md-6 fades">
+              <div class="mx-4">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-clock fs-1"></i>
+                  </h5>
+                  <h6
+                    class="card-subtitle mb-2 text-body-secondary fs-2 fw-bold text-light"
+                  >
+                    Card subtitle
+                  </h6>
+                  <p class="card-text text-light">
+                    We work with the best suppliers to offer our customers the
+                    fresh grocery products of the highest quality.t.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////end-services -->
+
+    <!-- ///start-prouducts/// -->
+    <section class="products">
+      <div class="new">
+        <h3 class="fst-italic">Latest Arrivals</h3>
+        <p class="new-product">NEW PRODUCTS</p>
+      </div>
+
+      <div class="pro-list">
+        <ul class="list-unstyled mx-auto list-items">
+          <li class="ALL" id="ALL">ALL</li>
+          <li id="VEGETABLES">VEGETABLES</li>
+          <li id="FRUITS">FRUITS</li>
+          <li id="BREAD">BREAD</li>
+        </ul>
+        <span class="line"></span>
+      </div>
+      <div class="container">
+        <div class="all-product"></div>
+      </div>
+    </section>
+    <!-- ///end-products -->
+
+    <!-- //start-clients -->
+    <section class="client">
+      <div class="new">
+        <h3 class="fst-italic">Latest Testimonials</h3>
+        <p class="new-product">OUR CLIENTS</p>
+      </div>
+      <div class="container">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner client-back">
+            <div class="carousel-item active text-center">
+              <div class="clients">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="desc-client">
+                  I got my large order of Raw Vegan foods in today via UPS and
+                  was
+                  <br />
+                  very impressed with the packaging & freshness as well as the
+                  quality of <br />
+                  my meals.
+                </p>
+                <div class="info-client">
+                  <img src="./imge/user-10-62x62.jpg" alt="" />
+                  <div class="">
+                    <h4 class="px-4">JANE PETERSON</h4>
+                    <h5 class="fst-italic">Client</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="clients">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="desc-client">
+                  I got my large order of Raw Vegan foods in today via UPS and
+                  was
+                  <br />
+                  very impressed with the packaging & freshness as well as the
+                  quality
+                  <br />
+                  my meals.
+                </p>
+                <div class="info-client">
+                  <img src="./imge/user-11-62x62.jpg" alt="" />
+                  <div class="">
+                    <h4 class="px-4">JANE PETERSON</h4>
+                    <h5 class="fst-italic">Client</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="clients">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="desc-client">
+                  I got my large order of Raw Vegan foods in today via UPS and
+                  was
+                  <br />
+                  very impressed with the packaging & freshness as well as the
+                  quality of
+                  <br />
+                  my meals.
+                </p>
+                <div class="info-client">
+                  <img src="./imge/user-6-62x62.jpg" alt="" />
+                  <div class="">
+                    <h4 class="px-4">JANE PETERSON</h4>
+                    <h5 class="fst-italic">Client</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///end-client -->
+    <!-- //start-offers -->
+    <section class="offers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-6">
+            <img
+              class="img-fluid img-1"
+              src="./imge/banner-2-670x676.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <img
+              class="img-fluid img-2"
+              src="./imge/banner-3-470x395.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid mt-4 img-3"
+              src="./imge/banner-4-470x250.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-offers -->
+
+    <!-- start-stickers -->
+    <section class="stickers">
+      <div class="container">
+        <div class="row my-auto">
+          <div class="col-lg-3 col-md-6">
+            <img src="./imge/clients-2-105x118.png " class="m-5" alt="" />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="./imge/clients-3-111x98.png" class="m-5" alt="" />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="./imge/clients-4-122x92.png" class="m-5" alt="" />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="./imge/clients-5-112x112.png" class="m-5" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///FAQ/ -->
+    <section class="faq p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="carousel-sec">
+              <div class="carousel__items carousel__items--visibale">
+                <img
+                  src="./imge/product-big-1-303x304.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="text-carosul">
+                  <p>Sparkling juice</p>
+                  <h6>$20</h6>
+                </div>
+              </div>
+              <div class="carousel__items">
+                <img
+                  src="./imge/product-big-2-303x304.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="text-carosul">
+                  <p>Sparkling juice</p>
+                  <h6>$20</h6>
+                </div>
+              </div>
+              <div class="carousel__items">
+                <img
+                  src="./imge/product-big-3-303x304.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="text-carosul">
+                  <p>Sparkling juice</p>
+                  <h6>$20</h6>
+                </div>
+              </div>
+              <div class="carousel__actions">
+                <i
+                  id="carousel__btn--prev"
+                  aria-label="prev slide"
+                  class="fa-solid fa-chevron-left"
+                ></i>
+
+                <i
+                  id="carousel__btn--next"
+                  aria-label="next slide"
+                  class="fa-solid fa-chevron-right"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="fst-italic Common">Common Questions</h3>
+            <h2 class="text-uppercase new-product">faq</h2>
+            <ul class="list-unstyled">
+              <li class="commom-li">
+                <i class="fa-solid fa-chevron-right what"></i> what am i allowed
+                to do with the template?
+                <p class="p-faq">
+                  what am i allowed to do with the template? what am i allowed
+                  to do with the template? what am i allowed to do with the
+                  template?
+                </p>
+              </li>
+              <hr />
+              <li class="commom-li">
+                <i class="fa-solid fa-chevron-right what"></i>
+                what am i allowed to do with the template?
+              </li>
+              <hr />
+              <li class="commom-li">
+                <i class="fa-solid fa-chevron-right what"></i>
+                what am i allowed to do with the template?
+              </li>
+              <hr />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- ///FAQ// -->
+    <section class="slider py-5">
+      <div class="new">
+        <h3 class="fst-italic">Latest Arrivals</h3>
+        <p class="new-product">NEW PRODUCTS</p>
+      </div>
+      <!-- <div class=""></div> -->
+      <i id="backBtn">prev</i>
+      <div class="container topPatent">
+        <div class="parent">
+          <div class="card">
+            <img
+              src="./imge/post-1-420x368.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                8 useful tips for smart grocery shoppind .
+              </p>
+              <span class="august">august 9 ,2021</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./imge/post-2-420x368.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                8 useful tips for smart grocery shoppind .
+              </p>
+              <span class="august">august 9 ,2021</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./imge/post-3-420x368.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                8 useful tips for smart grocery shoppind .
+              </p>
+              <span class="august">august 9 ,2021</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="card">
+            <img
+              src="./imge/post-1-420x368.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                8 useful tips for smart grocery shoppind .
+              </p>
+              <span class="august">august 9 ,2021</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./imge/post-4-420x368.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                8 useful tips for smart grocery shoppind .
+              </p>
+              <span class="august">august 9 ,2021</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./imge/post-5-420x368.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                8 useful tips for smart grocery shoppind ..
+              </p>
+              <span class="august">august 9 ,2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <i id="nextBtn">next</i>
+      <div class="PARENT">
+        <div class="PARENT_carousl--visib">
+          <img src="./imge/post-5-420x368.jpg" class="img-fluid" alt="" />
+          <div class="text-carosul">
+            <p>8 useful tips for smart grocery shoppind ..</p>
+            <span class="august">august 9 ,2021</span>
+          </div>
+        </div>
+        <div class="PARENT_carousl">
+          <img src="./imge/post-4-420x368.jpg" class="img-fluid" alt="" />
+          <div class="text-carosul">
+            <p>8 useful tips for smart grocery shoppind ..</p>
+            <span class="august">august 9 ,2021</span>
+          </div>
+        </div>
+        <div class="PARENT_carousl">
+          <img src="./imge/post-3-420x368.jpg" class="img-fluid" alt="" />
+          <div class="text-carosul">
+            <p>8 useful tips for smart grocery shoppind ..</p>
+            <span class="august">august 9 ,2021</span>
+          </div>
+        </div>
+        <div class="PARENT_carousl">
+          <img src="./imge/post-2-420x368.jpg" class="img-fluid" alt="" />
+          <div class="text-carosul">
+            <p>8 useful tips for smart grocery shoppind ..</p>
+            <span class="august">august 9 ,2021</span>
+          </div>
+        </div>
+      </div>
+      <div class="PARENT__actions">
+        <i
+          id="PARENT__btn--prev"
+          aria-label="prev slide"
+          class="fa-solid fa-chevron-left"
+        ></i>
+
+        <i
+          id="PARENT__btn--next"
+          aria-label="next slide"
+          class="fa-solid fa-chevron-right"
+        ></i>
+      </div>
+    </section>
+    <!-- //////end FAQ -->
+    <section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55269.43718365417!2d31.437794800000002!3d30.027107199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14582327af038d4d%3A0xb33a5f53ed30d038!2sCapital%20International%20Schools!5e0!3m2!1sen!2seg!4v1682949123799!5m2!1sen!2seg"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <!-- end--FAQ -->
+    <!-- //////////////////////start footer -->
+    <section class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="logo py-5">
+              <img src="./imge/logo-default-249x52.png" alt="" />
+            </div>
+            <div class="week">
+              <p class="pm">
+                <span class="weekdays">Weekdays:</span> 08:00am - 08:00pm
+              </p>
+              <p class="pm">
+                <span class="weekdays">Weekdays:</span> 08:00am - 08:00pm
+              </p>
+            </div>
+            <hr />
+            <div class="Social d-flex">
+              <h5 class="text-capitalize">get Social</h5>
+              <ul>
+                <i class="fa-brands fa-facebook-f fs-5 px-2"></i>
+                <i class="fa-brands fa-instagram fs-5 px-2"></i>
+                <i class="fa-brands fa-twitter fs-5 px-2"></i>
+                <i class="fa-brands fa-google-plus-g fs-5 px-2"></i>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-center">
+            <h3 class="py-5 fw-bold">CONTACTS</h3>
+            <div class="d-flex mb-3">
+              <i class="fa-solid fa-location-dot py-1"></i>
+              <h5 class="px-3">
+                523 Sylvan Ave, 5th Floor <br />
+                Mountain View, CA 94041 USA
+              </h5>
+            </div>
+            <div class="d-flex mb-3">
+              <i class="fa-solid fa-phone py-1"></i>
+              <h5 class="px-3">+1 (844) 123 456 78</h5>
+            </div>
+            <div class="d-flex mb-3">
+              <i class="fa-solid fa-envelope py-1"></i>
+              <h5 class="px-3">info@demolink.org</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-4 footer-third">
+            <h3 class="py-5 fw-bold">NEWSLETTER</h3>
+            <p class="subscribe">
+              subscribe to our newsletter to receive weekly news, updates,
+              special offers, and exclusive discounts.
+            </p>
+            <div class="input-click">
+              <i class="fa-solid fa-arrow-pointer"></i>
+
+              <input type="text" placeholder="Enter your email" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /////////////////////////// -->
+    <section class="payment">
+      <div class="container">
+        <div class="pay">
+          <div class="">
+            <p class="reserved">© 2021 Grocmart. All rights reserved</p>
+          </div>
+          <div class="">
+            <img class="px-1" src="./imge/payment-1-45x15.png" alt="" />
+            <img class="px-1" src="./imge/payment-2-46x28.png" alt="" />
+            <img class="px-1" src="./imge/payment-3-62x17.png" alt="" />
+          </div>
+          <div class="reserved">Privacy Policy</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /////////////////////////end footer -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/landing.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/windowScoll.js"></script>
+    <script src="./js/carosul.js"></script>
+  </body>
+</html>

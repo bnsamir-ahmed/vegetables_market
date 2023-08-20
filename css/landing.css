@@ -1,0 +1,242 @@
+
+.store {
+    margin: 25px 0;
+    font-size: 102px;
+    font-weight: 700;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+
+
+@keyframes rotate {
+
+    0% {
+        transform: rotate(90deg);
+        transform-origin: left bottom;
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transform-origin: left bottom;
+        opacity: 1;
+    }
+}
+
+.welcome {
+    letter-spacing: 2px;
+font-size:27px;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+    animation-name: spin;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+
+}
+
+@keyframes spin {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+
+    50% {
+        opacity: .5;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+
+    /* visibility: hidden; */
+
+}
+
+
+.for {
+    animation-duration: 6s;
+    font-size: 40px;
+    margin-left: 40px;
+    animation-iteration-count: 3;
+    animation-name: span;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-delay: 9s;
+
+}
+
+@keyframes span {
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    50% {
+        opacity: .5;
+        transform: translateX(500px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* /////landing///// */
+.view-img {
+    background-image: url(../imge/slide-1.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 85vh;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.view-img .prev {
+    position: absolute;
+    top: 300px;
+    left: 1px;
+    list-style: none;
+    font-size: 20px;
+    background-color: #fffaf08f;
+    padding: 20px 25px 20px 5px;
+    border-radius: 0 30px 30px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.view-img .next {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    list-style: none;
+    font-size: 20px;
+    background-color: #fffaf08f;
+    padding: 20px 15px 20px 20px;
+    border-radius: 30px 0 0 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.about {
+    font-size: 60px;
+}
+
+
+.btn-about {
+    background-color: #ff0000c4;
+    padding:  20px ;
+    border-radius: 50%;
+
+}
+.shop-now {
+    padding: 20px 25px;
+margin-left: 20px;
+}
+
+/* end-landing */
+
+/* about sec */
+section.aboUt .SAM{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+/* about sec */
+@media screen and (max-width:599px) {
+
+    .view-img {
+        margin-top: 0px;
+        text-align: center;
+        background-repeat: no-repeat;
+
+        background-position: right;
+    }
+
+    .text-view {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .welcome {
+        font-size: 16px;
+        animation-duration: 0;
+            animation-iteration-count: 0;
+    }
+
+    .store {
+        font-size: 30px;
+        margin: 5px 0;
+        font-weight: 500;
+        animation-duration: 0;
+            animation-iteration-count: 0;
+    }
+
+    .for {
+        font-size: 24px;
+        margin: 10px 0;
+        animation-duration: 0;
+            animation-iteration-count: 0;
+    }
+
+    .view-img .next,
+    .view-img .prev {
+        font-size: 16px;
+        padding: 15px 10px;
+        top:225px;
+    }
+
+    .shop-now {
+        padding: 10px;
+        font-size: 16px;
+    }
+/* SEC ABOUT */
+section.aboUt .SAM {
+flex-direction: column;
+}
+}
+
+
+@media screen and (min-width:600px) and (max-width:1023px) {
+    
+    .text-veiw{
+        text-align: center;
+    }
+    .welcome{
+        /* font-size: 30px; */
+        animation-duration: 0;
+        animation-iteration-count: 0;}
+    .store{
+        font-size: 50px;
+        animation-duration: 0;
+            animation-iteration-count: 0;
+    }
+    .for{
+        animation-duration: 0;
+            animation-iteration-count: 0;
+    }
+         section.aboUt .SAM {
+             display: flex;
+             flex-direction: column;
+         }
+                 .view-img .next,
+                 .view-img .prev {
+                    top: 200px;
+                 }
+}
+
